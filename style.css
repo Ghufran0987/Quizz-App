@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.welcome-text{
+    
+    width: 500px;
+}
+.welcome-form input,
+.welcome-form button{
+    display:block;
+    width: 100%;
+    
+}
+.welcome-form input{
+    margin-bottom: 15px;
+    background-color:transparent;
+    border: none;
+    border-bottom: 5px solid white;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.welcome-form button
+{
+    font-size: 22px;
+    background-color: black;
+    color: darkgray;
+    padding: 20px 0;
+    border-radius: 100px;
+
+}
+.welcome-form button:hover
+{
+    transition: 0.5s;
+    transform:translateY(-5px);
+    cursor: pointer;
+}
+.welcome-form input:focus,
+.welcome-form button:focus{
+    outline: none;
+    
+}
+.quiz-header{
+    background-color: lightpink;
+    border-radius: 0%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.quiz-body{
+    background-color:gray;
+    
+}
+.quiz{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 60px auto;
+    
+}
+.quiz-timer{
+    display: inline;
+    align-items: center;
+    background-color: lightslategrey;
+    color: linen;
+    padding: 0 20px;
+
+}
+.option-group
+{
+    
+    list-style: none;
+
+    
+}
+.option
+{
+    background-color: linen;
+    padding: 30px 0px 0px 60px;
+    font-size: 30px;
+
+}
+.option:hover{
+    cursor: pointer;
+    background-color: mediumslateblue;
+}
+.next{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    max-width: 400px;
+    max-height: 100px;
+    padding: 20px;
+    margin:5px 0px 0px 40px;
+}
+.next:focus{
+    outline: none;
+}
+.active{
+    background-color: blue;
+    color: cornsilk;
+}
+.fa-trophy
+{
+    font-size: 200px;
+    color: white;
+
+    }
+.username,
+.user_time,
+.user_point{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
